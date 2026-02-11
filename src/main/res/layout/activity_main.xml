@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="VisualLintBounds">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <Switch
+            android:id="@+id/switchQuickScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Quick Scan"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Button
+            android:id="@+id/btnSelectQuickPreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preset"
+            android:visibility="gone"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switchBeep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beep on Scan"
+        android:paddingBottom="8dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnSearchWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/search_last_on_web"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/settings"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnExportHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/export_share_history"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnClearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/clear_history"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/txtLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_scanned_items"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+    <ListView
+        android:id="@+id/listHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

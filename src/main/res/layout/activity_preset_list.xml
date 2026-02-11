@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAddPreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Custom Preset"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnCreateDefaults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Default Presets"
+        android:layout_marginTop="8dp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <ListView
+        android:id="@+id/listPresets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

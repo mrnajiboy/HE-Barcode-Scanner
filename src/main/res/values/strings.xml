@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HE Barcode Scanner</string>
+    <string name="manage_types">Manage Types</string>
+    <string name="manage_webhooks">Manage Webhooks</string>
+    <string name="manage_presets">Manage Presets</string>
+    <string name="manage_items">Manage Items</string>
+    <string name="use_24_hour_time">Use 24-hour time</string>
+    <string name="clear_history">Clear history</string>
+    <string name="export_share_history">Export / Share history</string>
+    <string name="scan">Scan</string>
+    <string name="search_last_on_web">Search last scan on web</string>
+    <string name="settings">Settings</string>
+    <string name="last_scanned_items">Last scanned items</string>
+</resources>

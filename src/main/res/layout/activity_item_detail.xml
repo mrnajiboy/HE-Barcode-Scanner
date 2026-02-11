@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtItemCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtItemType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type: "
+            android:textSize="16sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtHistoryCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scanned 0 time(s)"
+            android:textSize="14sp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/txtLastScanned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last scanned: "
+            android:textSize="14sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fields"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/txtItemFields"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No data"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actions"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEditItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Item" />
+
+        <Button
+            android:id="@+id/btnDeleteItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Item" />
+
+        <Button
+            android:id="@+id/btnResendItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resend Last Payload" />
+
+        <Button
+            android:id="@+id/btnSearchWebItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Web" />
+
+        <Button
+            android:id="@+id/btnExportItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export / Share" />
+
+        <Button
+            android:id="@+id/btnViewItemHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All History" />
+
+    </LinearLayout>
+</ScrollView>

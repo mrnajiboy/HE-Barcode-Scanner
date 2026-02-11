@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnManageTypes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_types" />
+
+        <Button
+            android:id="@+id/btnManageWebhooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_webhooks" />
+
+        <Button
+            android:id="@+id/btnManagePresets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_presets" />
+
+        <Button
+            android:id="@+id/btnSearchSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Search" />
+
+        <Button
+            android:id="@+id/btnManageItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manage_items" />
+
+        <Button
+            android:id="@+id/btnMeasurementSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Measurement Settings" />
+
+        <!-- Time format toggle -->
+        <Switch
+            android:id="@+id/switchTimeFormat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/use_24_hour_time"
+            android:checked="true"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+        <Button
+            android:id="@+id/btnDevTools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔧 Developer Tools"
+            android:visibility="gone"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+</ScrollView>

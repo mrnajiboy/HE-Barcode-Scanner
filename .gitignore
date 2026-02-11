@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.iml
+
+# Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Captured media / screenshots (optional if you don’t want them in git)
+*.png
+*.jpg
+*.jpeg
+
+# Keystores (never commit signing keys)
+*.jks
+*.keystore
+
+# Generated files
+release/
+debug/
