@@ -11,22 +11,22 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Scanning Modes](#scanning-modes)
-- [Default Presets](#default-presets)
-- [Item Types](#item-types)
-- [Configuration](#configuration)
-- [Usage Guide](#usage-guide)
-- [Data Formats](#data-formats)
-- [API Integration](#api-integration)
-- [Export & Sharing](#export--sharing)
-- [Technical Details](#technical-details)
-- [FAQ](#faq)
-- [Roadmap](#roadmap)
-- [Support](#support)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Scanning Modes](#-scanning-modes)
+- [Default Presets](#-default-presets)
+- [Item Types](#-item-types)
+- [Configuration](#-configuration)
+- [Usage Guide](#-usage-guide)
+- [Data Formats](#-data-formats)
+- [API Integration](#-api-integration)
+- [Export & Sharing](#-export--sharing)
+- [Technical Details](#-technical-details)
+- [FAQ](#-faq)
+- [Roadmap](#-roadmap)
+- [Support](#-support)
 
 ---
 
